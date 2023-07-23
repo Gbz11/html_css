@@ -1,0 +1,62 @@
+body{
+  background-color: beige;
+}
+
+h1{
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+.menu a{
+  display: block;
+  min-width: 120px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(83, 201, 241);
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+.menu a:hover{
+  background-color: aquamarine;
+  transition: all 0.5s;
+}
+
+.logo{
+  max-width: 80px;
+  min-width: 30px;
+  max-height: 80px;
+  min-height: 30px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.mainContent{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100vw;
+}
+
+p{
+  margin: 15px;
+  max-width: 75vw;
+}
+
+#bike{
+  width: 80vw;
+  height: 20vh;
+  margin: 1rem;
+}
+
+footer{
+  /* display: flex; */
+}

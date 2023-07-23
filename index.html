@@ -3,26 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motard du Morbhian</title>
+  <title>Motard du Morbihan</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- nav bar -->
-  <nav class="nav">
-    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-    <a class="nav-link" href="./event.htm">Evenements</a>
-  </nav>
-
-  <h1>Tous pour la moto en bretagne</h1>
-  <img src="./logo.jpg" alt="moto bzh">
+  <header>
+    <h1>Tous pour la moto en bretagne</h1>
+    <!-- nav bar -->
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="./index.html">Acceuil</a></li>
+        <li><a href="./event.htm">Evenements</a></li>
+      </ul>
+    </nav>    
+  </header>
+  
   <!-- main content -->
-  <main>
+  <main class="mainContent">
+    <img src="./background.jpg" alt="balade sur la côte" id="bike">
     <h2>Une petite présentation</h2>
-    <p>Bienvenue, sur le site Web référence concernant la mooto en bretagne. Nous sommes une
+    <p>Bienvenue, sur le site Web référence concernant la moto en bretagne. Nous sommes une
       association qui à pour but de promouvoir la passion de la moto dans nôtre belle région.
       Vous trouverais ici tous les renseignements utiles concernant nos activités et nos ambitions. </p>
-    <!-- Contact form -->
+  </main>
+  
+  <footer>
+    <img src="./logo.jpg" alt="moto bzh" class="logo">
     <h2>nous contacter</h2>
     <p>Une question? Contactez-nous!</p>
     
@@ -41,11 +48,11 @@
       <button class="btn btn-primary" type="submit">Soumettre le formulaire</button>
 
       </form>
-  
-  </main>
-  
-  <footer>
-
   </footer>
 </body>
+
+
+
+
+
 </html>
