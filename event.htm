@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <nav class="nav">
-    <ul class="menu">
+  <h1>Nos derniers événements</h1>
+  <nav class="navbar">
+    <ul>
       <li><a href="./index.html">Acceuil</a></li>
       <li><a href="./event.htm">Evenements</a></li>
     </ul>
-  </nav>
-  
+  </nav>  
+  <hr>
+
   <h1>Notre actualité.</h1>
   <main>
     <article>
@@ -22,26 +24,44 @@
         <h2>Manifestation CT Moto</h2>
       
       </section>
-      
+       <hr>
       <section>
         <h2>course de motocross</h2>
 
       </section>
-
+        <hr>
       <section>
         <h2>Festival motard</h2>
-
+        <hr>
       </section>
       
       <section>
         <h2>Journée circuit</h2>
       </section>
-
+        <hr>
     </article>
   </main>
 
+  <hr>
+  <footer>
+    <h2 class="h2footer">Nous contacter</h2>
+    
+    <form action="#" class="form">
+      <label for="name" class="name">Nom:</label>
+      <input type="text" id="name" placeholder="Entrez votre nom">
 
+      <label for="firstName" class="firstName">Prénom:</label>
+      <input type="text" id="firstName" placeholder="Entrez votre prenom">
 
+      <label for="message" class="message">Message:</label>
+      <textarea name="massage" id="message" cols="30" rows="10" placeholder="Entrez votre message">
+        Message:
+      </textarea>
+
+      <button class="btn btn-primary" type="submit">Envoyer le formulaire</button>
+
+      </form>
+  </footer>
 
 </body>
 </html>
